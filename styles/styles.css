@@ -1,0 +1,34 @@
+html,
+body{
+    height: 100%;
+}
+.promo-screen{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #000;
+
+}
+
+
+.promo-screen.image{
+    background: #000;
+    transition: background-image .3s ease;
+}
+
+.promo-screen.image_load_stub{
+    background-image: url(../images/image_load_stub.jpg);
+    background-position: center top;
+        background-size: cover;
+}
+.promo-screen.image_load_full{
+    background-image: url(../images/image_load_full.jpg);
+    background-position: center top;
+        background-size: cover;
+}
+
